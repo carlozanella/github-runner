@@ -2,7 +2,7 @@ name: build-image
 
 on:
   schedule:
-    - cron: '39 1 * * *''
+    - cron: '39 1 * * *'
   push
 
 jobs:
