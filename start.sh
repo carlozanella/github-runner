@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd /home/docker/actions-runner
+cd /root/actions-runner
 
 ./config.sh --url ${URL} --token ${TOKEN} --unattended --replace --disableupdate
 
