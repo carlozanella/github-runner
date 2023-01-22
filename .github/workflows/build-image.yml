@@ -3,7 +3,7 @@ name: build-image
 on:
   schedule:
     - cron: '39 1 * * *'
-  push
+  push:
 
 jobs:
   push_to_registry:
